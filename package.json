@@ -2,8 +2,6 @@
   "name": "srijan",
   "version": "0.1.0",
   "description": "Frontend App for srijan Website",
-  "private": true,
-  "homepage": "https://srijan-iitism.com/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
@@ -47,12 +45,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
@@ -65,17 +58,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mittal-abhay/Srijan-23.git"
-  },
-  "author": "IIT (ISM)",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mittal-abhay/Srijan-23/issues"
-  },
-  "devDependencies": {
-    "gh-pages": "^4.0.0"
   }
 }
